@@ -10,3 +10,6 @@ const std::initializer_list<const char*> SEED_NODES = {
 };
 const uint64_t MINIMUM_FEE = 100000;
 const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 20000;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0xe9;
+const char GENESIS_COINBASE_TX_HEX[] = "";
+NewtonCoind --print-genesis-tx
